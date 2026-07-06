@@ -6,9 +6,8 @@
 
 | 文件 | 用途 |
 |---|---|
-| `bm.html` | **安装页** — 浏览器中打开，将按钮拖到书签栏即可安装 |
-| `doubao_agent_source.js` | 脚本源码，IIFE 自执行 |
-| `doubao_agent_bm_new.txt` | URL 编码后的书签代码（`bm.html` 已内嵌，一般无需直接使用） |
+| `doubao_agent_source.js` | 脚本源码 |
+| `doubao_agent_bm.txt` | URL 编码后的书签代码（`index.html` 已内嵌，一般无需直接使用） |
 
 ## 功能
 
@@ -37,11 +36,11 @@
    - Windows：`Ctrl + Shift + B`
 
 2. **拖拽安装**
-   - 浏览器打开 `bm.html`
+   - 浏览器打开 `https://r05etta.github.io/ohyeah-agent-helper`
    - 按住页面中的 **"欧耶欧耶智能体提取助手"** 按钮
    - 拖到书签栏，看到插入位置后松开
 
-> 也可手动新建书签，将 `doubao_agent_bm_new.txt` 的内容粘贴到 URL 栏。
+> 也可手动新建书签，将 `doubao_agent_bm.txt` 的内容粘贴到 URL 栏。
 
 ### 使用
 
@@ -103,6 +102,3 @@ ZIP 包含上述 `.md` 文件 + 头像图片。
 - 页面路由变化（SPA 切换）后自动重置面板状态
 - 提取开场白前必须先清除聊天记录并刷新
 
----
-
-欧耶欧耶弹幕网 · @唤水剑
